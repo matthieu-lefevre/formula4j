@@ -1,9 +1,8 @@
 package com.mlefevre.maths.formula.converter.latex.operation;
 
 import com.mlefevre.maths.formula.FormulaElement;
-import com.mlefevre.maths.formula.converter.ConverterOperation;
 
-public class Text implements ConverterOperation {
+public class Text extends BaseOperation {
 
     public String getTemplate() {
         return "%s";
